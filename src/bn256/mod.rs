@@ -3,7 +3,7 @@ mod fq;
 mod fq12;
 mod fq2;
 mod fq6;
-mod fr;
+pub mod fr;
 mod curve;
 
 #[cfg(all(feature = "asm", target_arch = "x86_64"))]

@@ -30,6 +30,7 @@ pub const MODULUS: Fr = Fr([
     0x30644e72e131a029,
 ]);
 
+/// Visibility changed for analyzer
 pub const MODULUS_STR: &str = "0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000001";
 
 /// INV = -(r^{-1} mod 2^64) mod 2^64

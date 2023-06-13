@@ -3,6 +3,7 @@ mod fq;
 mod fq12;
 mod fq2;
 mod fq6;
+/// Visibility changed for analyzer
 pub mod fr;
 mod curve;
 
